@@ -1,0 +1,29 @@
+.logout-btn{
+    position: fixed;
+    border: none;
+    right: 2rem;
+    bottom: 5rem;
+    border-radius: 62%;
+    color: black;
+    height: 4rem;
+    font-size: 23px;
+}
+
+.video-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    position: relative;
+}
+
+input{
+    width: 6rem;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 12rem;
+    right: 2rem;
+}
+

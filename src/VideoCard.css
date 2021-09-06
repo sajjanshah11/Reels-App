@@ -1,0 +1,97 @@
+.video-card{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid white; */
+    margin: auto;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.video-tag{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-card p {
+    color: rgb(19, 57, 226);
+    font-size: larger;
+    position: absolute;
+    bottom: 7rem;
+    z-index: 2;
+}
+
+.music-player {
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+    z-index: 2;
+}
+
+.chat-icon{
+    color: white;
+    position: absolute;
+    top: 11.5rem;
+    right: 28px;
+    z-index: 3;
+}
+
+.like-icon{
+    color: red;
+    position: absolute;
+    top: 15.5rem;
+    right: 2rem;
+    z-index: 2;
+}
+
+
+.comment-box{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    height: 40%;
+    width: 100%;
+    z-index: 3;
+    /* position: relative; */
+}
+
+.actual-comment{
+    height: 90%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.comment-form{
+    height: 10%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.comment-form button{
+    position: absolute;
+    right: 0px;
+    width: 14%;
+    bottom: 6px;
+}
+
+.comment-form input{
+    position: absolute;
+    border: 1px solid red;
+    left: 0px;
+    bottom: 0px;
+    width: 86%;
+    bottom: 8px;
+}
+
+.image-user{
+    display: flex;
+    
+}
+
+.image-user img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
